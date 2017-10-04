@@ -37,7 +37,7 @@
        (-> project
            (update-in [:dependencies]
                       conj
-                      ['lein-bikeshed "0.4.2-SNAPSHOT"]))
+                      ['lovepopcards/lein-bikeshed "0.4.4"]))
        `(if (bikeshed.core/bikeshed
              '~project
              {:max-line-length (or (:max-line-length ~opts)
