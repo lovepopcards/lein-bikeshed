@@ -5,4 +5,5 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :eval-in :leiningen
+  :deploy-repositories {:sign-releases false}
   :dependencies [[org.clojure/tools.namespace "0.2.6"]])
