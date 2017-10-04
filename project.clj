@@ -3,7 +3,10 @@
                     "and that you should feel bad")
   :url "https://github.com/dakrone/lein-bikeshed"
   :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+            :url  "http://www.eclipse.org/legal/epl-v10.html"}
   :eval-in :leiningen
-  :deploy-repositories {:sign-releases false}
+  :deploy-repositories {"clojars" {:url           "https://clojars.org/repo"
+                                   :sign-releases false
+                                   :username      :env
+                                   :passphrase    :env}}
   :dependencies [[org.clojure/tools.namespace "0.2.6"]])
