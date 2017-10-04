@@ -293,11 +293,12 @@
                                  (:max-line-length options)))
         trailing-whitespace (trailing-whitespace source-files)
         trailing-blank-lines (trailing-blank-lines source-files)
-        bad-roots (bad-roots source-files)
+        ;; bad-roots (bad-roots source-files)
         bad-methods (missing-doc-strings project (:verbose options))
         bad-arguments (check-all-arguments project)]
     (or bad-arguments
         long-lines
         trailing-whitespace
         trailing-blank-lines
-        bad-roots)))
+        ;; bad-roots
+        )))
