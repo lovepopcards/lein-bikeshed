@@ -1,5 +1,9 @@
 # lein-bikeshed
 
+Lovepop:
+
+- deploy via `lein deploy clojars`
+
 A Leiningen plugin designed to tell you your code is bad, and that you
 should feel bad.
 
