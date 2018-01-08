@@ -9,4 +9,5 @@
                                    :sign-releases false
                                    :username      :env
                                    :passphrase    :env}}
-  :dependencies [[org.clojure/tools.namespace "0.2.6"]])
+  :dependencies [[org.clojure/tools.cli "0.3.5"]
+                 [org.clojure/tools.namespace "0.2.6"]])
